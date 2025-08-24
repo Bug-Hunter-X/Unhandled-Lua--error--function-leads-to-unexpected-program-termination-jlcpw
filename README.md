@@ -1,0 +1,3 @@
+# Unhandled Lua `error` Function
+
+This repository demonstrates a common issue in Lua programming: the improper handling of errors thrown by the `error` function.  The `bug.lua` file shows a function that throws an error if a parameter is nil. However, the error is not caught, resulting in the program crashing.  The solution file, `bugSolution.lua`, shows how to implement robust error handling using `pcall` for better control and preventing abrupt termination.
